@@ -28,6 +28,18 @@ namespace sip423_433.Controllers
         {
             return View();
         }
+        public IActionResult Blog_Single()
+        {
+            return View();
+        }
+        public IActionResult Shop()
+        {
+            return View();
+        }
+        public IActionResult Cart()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
